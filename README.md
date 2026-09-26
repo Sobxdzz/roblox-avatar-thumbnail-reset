@@ -30,7 +30,7 @@ It does **not** restore a deleted avatar item, an old outfit, or fix a moderated
    - Or right-click anywhere on the page → **Inspect**
 4. Click the **Console** tab in the Developer Tools panel.
 5. If this is your first time using the console in Chrome/Edge, it may show a warning like *"Type 'allow pasting' to continue"* — type `allow pasting` and press Enter.
-6. Copy the full script from [`Reveter.js`](./Reveter.js)
+6. Copy the full script from [`Reverter.js`](./Reverter.js)
 7. Paste it into the console and press **Enter**.
 8. Watch the console output — you should see a status line for each thumbnail type (e.g. `thumbnailType 1: 200 ...`), followed by `Done. Hard-refresh your profile page.`
 9. **Hard-refresh** your profile page (`Ctrl+Shift+R` / `Cmd+Shift+R`) to see the updated thumbnail. Roblox may take a minute or two to regenerate the image on their end.
