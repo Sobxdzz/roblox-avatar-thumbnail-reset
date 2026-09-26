@@ -5,21 +5,6 @@ A small browser console script that resets your Roblox avatar thumbnail (profile
 > ⚠️ **Unofficial / undocumented API notice**
 > This script relies on an internal Roblox endpoint (`avatar.roblox.com/v1/avatar/thumbnail-customization`) that is not part of Roblox's official public API documentation. It works as of the time of writing, but Roblox can change, restrict, or disable it at any time without notice. Use at your own risk. This project is **not affiliated with or endorsed by Roblox Corporation**.
 
-## What it does
-
-- Resets your avatar thumbnail's camera distance, field of view, and rotation to default values
-- Clears any emote/pose set on your profile picture
-- Requests a fresh thumbnail redraw so the change shows up
-- Logs the response status for each step so you can see exactly what happened
-
-It does **not** restore a deleted avatar item, an old outfit, or fix a moderated/banned profile — it only resets the *camera and pose settings* used to render your profile thumbnail.
-
-## Requirements
-
-- A desktop browser (Chrome, Firefox, or Edge all work)
-- You must be logged into your Roblox account
-- No installs, no Node.js, no dependencies — it's plain JavaScript pasted into the browser console
-
 ## How to use it
 
 1. **Log into Roblox** in your browser as normal.
@@ -35,6 +20,22 @@ It does **not** restore a deleted avatar item, an old outfit, or fix a moderated
 8. Watch the console output — you should see a status line for each thumbnail type (e.g. `thumbnailType 1: 200 ...`), followed by `Done. Hard-refresh your profile page.`
 9. **Hard-refresh** your profile page (`Ctrl+Shift+R` / `Cmd+Shift+R`) to see the updated thumbnail. Roblox may take a minute or two to regenerate the image on their end.
 
+
+## What it does
+
+- Resets your avatar thumbnail's camera distance, field of view, and rotation to default values
+- Clears any emote/pose set on your profile picture
+- Requests a fresh thumbnail redraw so the change shows up
+- Logs the response status for each step so you can see exactly what happened
+
+It does **not** restore a deleted avatar item, an old outfit, or fix a moderated/banned profile — it only resets the *camera and pose settings* used to render your profile thumbnail.
+
+
+## Requirements
+
+- A desktop browser (Chrome, Firefox, or Edge all work)
+- You must be logged into your Roblox account
+- No installs, no Node.js, no dependencies — it's plain JavaScript pasted into the browser console
 
 
 ## Troubleshooting
