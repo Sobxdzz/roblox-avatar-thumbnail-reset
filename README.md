@@ -2,9 +2,6 @@
 
 A small browser console script that resets your Roblox avatar thumbnail (profile picture) camera position and emote back to default, using Roblox's own thumbnail customization API.
 
-> ⚠️ **Unofficial / undocumented API notice**
-> This script relies on an internal Roblox endpoint (`avatar.roblox.com/v1/avatar/thumbnail-customization`) that is not part of Roblox's official public API documentation. It works as of the time of writing, but Roblox can change, restrict, or disable it at any time without notice. Use at your own risk. This project is **not affiliated with or endorsed by Roblox Corporation**.
-
 ## How to use it
 
 1. **Log into Roblox** in your browser as normal.
@@ -27,8 +24,6 @@ A small browser console script that resets your Roblox avatar thumbnail (profile
 - Clears any emote/pose set on your profile picture
 - Requests a fresh thumbnail redraw so the change shows up
 - Logs the response status for each step so you can see exactly what happened
-
-It does **not** restore a deleted avatar item, an old outfit, or fix a moderated/banned profile — it only resets the *camera and pose settings* used to render your profile thumbnail.
 
 
 ## Requirements
