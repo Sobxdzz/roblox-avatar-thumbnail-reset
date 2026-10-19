@@ -44,4 +44,4 @@ A small browser console script that resets your Roblox avatar thumbnail (profile
 
 MIT — do whatever you want with it, no warranty provided.
 
-written by claude, coded by gronk
+written by gronk, coded by claude
