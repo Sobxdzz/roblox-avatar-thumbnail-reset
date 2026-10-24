@@ -5,7 +5,7 @@ A small browser console script that resets your Roblox avatar thumbnail (profile
 ## How to use it
 
 1. **Log into Roblox** in your browser as normal.
-2. Go to your profile page — `https://www.roblox.com/users/YOUR_USER_ID/profile` (or just click your avatar/username anywhere on the site to get there).
+2. Go to your profile page — `https://www.roblox.com/users/profile`
 3. Open **Developer Tools**:
    - **Windows/Linux:** press `F12`, or `Ctrl+Shift+I`
    - **Mac:** press `Cmd+Option+I`
@@ -14,23 +14,20 @@ A small browser console script that resets your Roblox avatar thumbnail (profile
 5. If this is your first time using the console in Chrome/Edge, it may show a warning like *"Type 'allow pasting' to continue"* — type `allow pasting` and press Enter.
 6. Copy the full script from [`Reverter.js`](./Reverter.js)
 7. Paste it into the console and press **Enter**.
-8. Watch the console output — you should see a status line for each thumbnail type (e.g. `thumbnailType 1: 200 ...`), followed by `Done. Hard-refresh your profile page.`
-9. **Hard-refresh** your profile page (`Ctrl+Shift+R` / `Cmd+Shift+R`) to see the updated thumbnail. Roblox may take a minute or two to regenerate the image on their end.
+8. **Hard-refresh** your profile page (`Ctrl+Shift+R` / `Cmd+Shift+R`) to see the updated thumbnail. 
 
 
 ## What it does
 
 - Resets your avatar thumbnail's camera distance, field of view, and rotation to default values
 - Clears any emote/pose set on your profile picture
-- Requests a fresh thumbnail redraw so the change shows up
-- Logs the response status for each step so you can see exactly what happened
 
 
 ## Requirements
 
 - A desktop browser (Chrome, Firefox, or Edge all work)
 - You must be logged into your Roblox account
-- No installs, no Node.js, no dependencies — it's plain JavaScript pasted into the browser console
+ — plain JavaScript pasted into the browser console
 
 
 ## Troubleshooting
